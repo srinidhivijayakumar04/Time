@@ -7,7 +7,7 @@ class Currentdatetime {
         LocalDateTime now = LocalDateTime.now();
 
         
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("-MM-dd HH:mm:ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
        
         String formattedDateTime = now.format(formatter);
